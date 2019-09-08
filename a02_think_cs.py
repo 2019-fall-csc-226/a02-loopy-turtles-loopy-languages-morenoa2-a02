@@ -44,9 +44,9 @@ for angle in range(100):        # moveTurtles(tList,dist,angle) function removed
 w = tList[0]
 w.up()
 
-w.setpos(0,40)                                                                                # was w.goto(-130,40) modified by by Dr. Pearce to make functional in Windows
+w.setpos(0,0)                                                                                # was w.goto(-130,40) modified by by Dr. Pearce to make functional in Windows
 w.write("How to Think Like a ",move=False,align='center',font=("Arial",30,("bold","normal"))) # altered by Dr. Pearce to make font size work in Windows
-w.setpos(0,-35)                                                                               # was goto(-130,-35) modified by by Dr. Pearce to make functional in Windows
+w.setpos(0,0)                                                                               # was goto(-130,-35) modified by by Dr. Pearce to make functional in Windows
 w.write("Computer Scientist",move=False,align='center',font=("Arial",30,("bold","normal")))   # altered by Dr. Pearce to make font size work in Windows
 
 wn.exitonclick()
